@@ -63,7 +63,7 @@ const Apartments = ({item}) => {
     return (
         <div>
             <div className="p-4" >
-                <div className="card w-[350px] bg-emerald-50 shadow-xl" data-aos="fade-left" >
+                <div className="card w-[350px] h-[450px] bg-emerald-50 shadow-xl" data-aos="fade-left" >
                     <figure className="px-10 pt-10">
                         <img src={apartmentImage} alt="apartment" className="rounded-xl transform scale-100 hover:scale-125 transition-transform ease-in-out duration-300" />
                     </figure>
